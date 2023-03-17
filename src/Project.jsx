@@ -38,7 +38,7 @@ export default function Home(){
 				
 				<div class="w-1/3 p-2">
 					<a href="https://github.com/Mgaynor2022/petAdoptionApp" class="block mb-8 bg-black hover:bg-gray-700">
-						<img src="images/pet.jpeg" class="w-full h-auto opacity-75" />
+						<img src="https://raw.githubusercontent.com/Mgaynor2022/Mgaynor2022.github.io/main/images/pet.jpeg" class="w-full h-auto opacity-75" />
 					</a>
 					<h1 class="text-xl text-center">Pet Adoption App</h1>
 				</div>
