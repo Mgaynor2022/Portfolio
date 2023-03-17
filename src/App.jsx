@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <div>
-            <header class="mx-auto max-w-xl py-20 text-center">
+            <header class="  mx-auto max-w-xl py-20 text-center">
 			<a href="#" class="block text-2xl mb-12">Michael Gaynor's Portfolio</a>
 
 			<ul class="flex justify-center uppercase text-xs">
@@ -19,13 +19,13 @@ function App() {
 					<Link to="/Home" class="mx-4 hover:text-gray-600">Home</Link>
 				</li> */}
 				<li>
-					<Link to="/Project" class="mx-4 hover:text-gray-600">Projects</Link>
+					<Link to="/Project" class="mx-4 hover:text-gray-600">Home</Link>
 				</li>
-				{/* <li>
-					<Link to="/Resume" class="mx-4 hover:text-gray-600">Resume</Link>
-				</li> */}
 				<li>
-					<Link to="/ContactUs" class="mx-4 hover:text-gray-600">Contact</Link>
+					<Link to="/Resume" class="mx-4 hover:text-gray-600">Resume</Link>
+				</li>
+				<li>
+					<Link to="/ContactUs" class="mx-4 hover:text-gray-600">Contact </Link>
 				</li>
 			</ul>
 		</header>
@@ -34,7 +34,7 @@ function App() {
 
     <div>
       <Routes>
-        {/* <Route index element ={<Home/>}/>
+        {/* <Route index element ={<Project/>}/>
         <Route path="/Home" element={<Home/>}/> */}
         <Route path="/Project" element={<Project/>}/>
         {/* <Route path="/Resume" element={<Resume/>}/> */}
