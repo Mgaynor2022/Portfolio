@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 
 
@@ -46,12 +47,13 @@ export default function Home(){
 
                     <a href='https://github.com/Mgaynor2022/petAdoptionApp'>
                     <button type="button" class="mt-5 text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  ">GitHub Link</button>
-
                     </a>
 				</div>
 						
 			</div>
+			
         </div>
+		
     
    )
 
