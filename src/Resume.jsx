@@ -5,7 +5,7 @@ export default function Resume(){
     return(
         <div>
             <div class="flex justify-center items-center p-2">
-                <img src="images/resume.png" class="w-1/2"  />
+                <img src="https://github.com/Mgaynor2022/Mgaynor2022.github.io/blob/main/src/resume/SoftwareEngineerResume.pdf" class="w-1/2"  />
             </div>
 
                 <a href='https://github.com/Mgaynor2022/Mgaynor2022.github.io/blob/main/src/resume/SoftwareEngineerResume.pdf' download={"SoftwareEngineerResume.pdf"}>
