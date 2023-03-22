@@ -15,9 +15,9 @@ function App() {
     <div>
       <div>
             <header class="  mx-auto max-w-xl py-20 text-center">
-			<h1 href="#" class="block text-2xl mb-12">Michael Gaynor's Portfolio</h1>
+			<h1 href="#" class="block text-2xl mb-12 font-semibold">Michael Gaynor's Portfolio</h1>
 
-			<ul class="flex justify-center uppercase text-xs">
+			<ul class="flex justify-center uppercase text-xs font-normal">
 				{/* <li>
 					<Link to="/Home" class="mx-4 hover:text-gray-600">Home</Link>
 				</li> */}
