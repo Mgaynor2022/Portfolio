@@ -6,7 +6,7 @@ import Footer from './Footer'
 export default function Home(){
 
    return(
-    <div class="mx-auto max-w-6xl bg-white py-20 px-12 lg:px-24 shadow-xl mb-24">
+    <div class="mx-auto max-w-6xl bg-white py-20 px-12 lg:px-24 shadow-xl mb-24 ">
 
 			<div class="mb-12">
 				{/* <h1 class="text-3xl lg:text-4xl text-center mb-6 tracking-wider font-semibold">About Me</h1> */}
@@ -27,7 +27,7 @@ export default function Home(){
 			</div>
             
 				<h1 class="text-3xl lg:text-4xl text-center mb-6 tracking-wider pt-10 font-semibold">Projects</h1>
-			<div class="flex justify-between">
+			<div class="flex justify-center ">
 				<div class="w-1/2 m-5">
 					<a href="https://github.com/Mgaynor2022/infoMovieApp" class="block mb-8 bg-black hover:bg-gray-700" target="_blank" rel="noopener noreferrer">
 						<img src="https://raw.githubusercontent.com/Mgaynor2022/Mgaynor2022.github.io/main/images/movie.jpeg" class="w-full h-auto opacity-75" />
@@ -37,7 +37,7 @@ export default function Home(){
 					<p class="font-normal">Developed an application to allow users to extract data from RESTful API regarding movies or Tv-shows that was entered
 						into the search function, and allows users to add their favorite movies or tv-shows to a database.</p>
                     <a href='https://github.com/Mgaynor2022/infoMovieApp' target="_blank" rel="noopener noreferrer">
-                    <button type="button" class="mt-5 text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  ">GitHub Link</button>
+                    <button type="button" class="mt-5 text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">GitHub Link</button>
                     </a>
 				</div>
 				
@@ -50,7 +50,7 @@ export default function Home(){
 						from a created database with multiple endpoints that houses the data.</p>
 
                     <a href='https://github.com/Mgaynor2022/petAdoptionApp' target="_blank" rel="noopener noreferrer">
-                    <button type="button" class="mt-5 text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  ">GitHub Link</button>
+                    <button type="button" class=" mt-10 text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  ">GitHub Link</button>
                     </a>
 				</div>
 						
