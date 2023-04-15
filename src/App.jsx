@@ -4,6 +4,7 @@ import Project from './Project'
 import ContactUs from './ContactUs'
 import Footer from './Footer'
 import Resume from './Resume'
+import Home from './Home'
 
 
 
@@ -37,6 +38,7 @@ function App() {
 
     <div>
       <Routes>
+      {/* <Route index element ={<Home/>}/> */}
          <Route index element ={<Project/>}/>
         {/* <Route path="/Home" element={<Home/>}/>  */}
         <Route path="/Project" element={<Project/>}/>
