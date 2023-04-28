@@ -20,7 +20,10 @@ export default function ContactUs() {
 	  return(
 		  <form class="bg-white dark:bg-gray-900 mt-20" ref={form}onSubmit={sendEmail}>
 				<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-					<h2 class="font-semibold text-3xl lg:text-4xl text-center mb-6 tracking-wider">Contact Me</h2>
+					<h2 className="text-5xl text-center mb-6 tracking-wider">Get In Touch With Me</h2>
+					<p className="font-normal text-lg text-center mb-6">I'm currently looking for full-time Software Engineering or Frontend Developer opportunities! 
+						If you know of any positions available, if you have any questions, or if you just want to say hi, 
+						please feel free to email me.</p>
 						<div>
 							<label for="email" class="block mb-2 text-sm font-light ">Your email</label>
 							<input type="email" name='user_email' class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required/>
