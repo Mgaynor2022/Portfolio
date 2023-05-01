@@ -16,12 +16,6 @@ export default function About(){
 
 				<div id='aboutMe' className=" flex flex-col items-center">
 					<h1 className="text-5xl text-center mb-6 tracking-wider">About Me</h1>
-					{/* <p className="font-normal text-lg text-center mb-6">
-					As a skilled Software Engineer, I have expertise in programming languages such as JavaScript, HTML/CSS, SQL, and
-					libraries/frameworks including React, Node JS/Express, and Tailwind CSS. My proficiency 
-					extends to database technologies such as MongoDB and Mongoose, RESTful APIs, and tools like Postman, Git/GitHub, and 
-					Slack. With experience in developing Full Stack Applications, I have shown my capability to build scalable code that is optimized for 
-					performance, accessibility, and usability while utilizing Agile methodologies. </p> */}
 					<p className=" font-normal text-lg text-center mb-6">My time in the military and all the goals that I have crushed in my fitness journey showed 
 						me how disciplined and self motivated I truly am. Web development brings me fulfillment
 						 in bringing my ideas to life with coding, this is what makes me put the long hours into learning 
