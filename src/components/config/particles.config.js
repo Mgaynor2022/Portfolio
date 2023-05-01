@@ -8,10 +8,10 @@ const particlesConfig =
         value_area: 1815
       }
     },
-    style:{
-      position: "absolute"
+    // style:{
+    //   position: "absolute"
 
-    },
+    // },
     
     shape: {
       type: "circle",
@@ -113,7 +113,7 @@ const particlesConfig =
   },
     fullScreen: {
       enable: false,
-      zIndex: 0
+      zIndex: -1
     },
     
   

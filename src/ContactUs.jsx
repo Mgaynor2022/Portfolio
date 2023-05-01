@@ -18,10 +18,11 @@ export default function ContactUs() {
   };
 	  
 	  return(
-		  <form class="bg-white dark:bg-gray-900 mt-20" ref={form}onSubmit={sendEmail}>
-				<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+		  <form id='contact'
+		  class="bg-white mt-20" ref={form}onSubmit={sendEmail}>
+				<div id='contactContainer' class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
 					<h2 className="text-5xl text-center mb-6 tracking-wider">Get In Touch With Me</h2>
-					<p className="font-normal text-lg text-center mb-6">I'm currently looking for full-time Software Engineering or Frontend Developer opportunities! 
+					<p id='contactText' className="font-normal text-lg text-center mb-6">I'm currently looking for full-time Software Engineering or Frontend Developer opportunities! 
 						If you know of any positions available, if you have any questions, or if you just want to say hi, 
 						please feel free to email me.</p>
 						<div>
@@ -36,7 +37,7 @@ export default function ContactUs() {
 							<label for="message" class="block mb-2 text-sm  text-gray-900 dark:text-gray-400 font-light">Your message</label>
 							<textarea name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" ></textarea>
 						</div>
-						<button class="py-3 px-5 mt-5 text-sm text-center text-white bg-black rounded-lg  sm:w-fit hover:border-gray-300 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+						<button class="py-3 px-5 mt-5 text-sm text-center text-white bg-black rounded-lg  sm:w-fit hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
 				</div>
 			  </form>
 			  

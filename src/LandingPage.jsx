@@ -6,6 +6,7 @@ import About from './About'
 import Navbar from './Navbar'
 import Header from './components/config/Header'
 
+
 const LandingPage = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
@@ -20,7 +21,7 @@ const LandingPage = () => {
     }, []);
 
     return (
-        <div id='Particles' className='relative flex h-screen w-screen  '>
+        <div id='particles' className=' flex h-screen w-screen  '>
             <Particles
                 id="tsparticles"
                 init={particlesInit}
