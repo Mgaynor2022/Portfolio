@@ -2,6 +2,7 @@ import {SiJavascript} from 'react-icons/si'
 import {TbHtml} from 'react-icons/tb'
 import {MdCss} from 'react-icons/md'
 import {SiMysql} from 'react-icons/si'
+import michaelImage from '../src/images/IMG_1369.jpeg'
 
 
 export default function About(){
@@ -10,7 +11,8 @@ export default function About(){
         <div id='about'className="flex bg-gray-50 items-center px-12 lg:px-24 p-10 ">
 				<div className="">
 					<img id='picture'
-					src= "https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/IMG_1369.jpeg?raw=true" 
+					src={michaelImage}
+					// src= "src/images/IMG_1369.jpeg" 
 					className="rounded-full p-10 w-7/12"/>					
 				</div>
 

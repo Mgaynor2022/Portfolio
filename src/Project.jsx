@@ -3,6 +3,9 @@ import {FaNode} from 'react-icons/fa'
 import {TbHtml} from 'react-icons/tb'
 import { FaReact } from 'react-icons/fa'
 import {SiTailwindcss} from 'react-icons/si'
+import infoMovie from '../src/images/infoMovie.jpeg'
+import adoptApet from '../src/images/adoptApet.jpeg'
+
 
 
 
@@ -43,7 +46,8 @@ export default function Home(){
 				</div>
 				<div className="">
 					<img 
-					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
+					src={infoMovie}
+					// src="src/images/infoMovie.jpeg" 
 					className="p-10 h-full"/>					
 				</div>
 			</div>
@@ -51,7 +55,8 @@ export default function Home(){
 			<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
 				<div className="">
 					<img 
-					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
+					src={adoptApet}
+					// src="src/images/adoptApet.jpeg" 
 					className="p-10 h-full"/>					
 				</div>
 				<div className="items-center">
