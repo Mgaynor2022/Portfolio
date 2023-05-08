@@ -21,8 +21,8 @@ export default function ContactUs() {
 		  <form id='contact'
 		  className="bg-white mt-20" ref={form}onSubmit={sendEmail}>
 				<div id='contactContainer' className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-					<h2 classNameName="text-5xl text-center mb-6 tracking-wider">Get In Touch With Me</h2>
-					<p id='contactText' classNameName="font-normal text-lg text-center mb-6">I'm currently looking for full-time Software Engineering or Frontend Developer opportunities! 
+					<h2 className="text-5xl text-center mb-6 tracking-wider">Get In Touch With Me</h2>
+					<p id='contactText' className="font-normal text-lg text-center mb-6">I'm currently looking for full-time Software Engineering or Frontend Developer opportunities! 
 						If you know of any positions available, if you have any questions, or if you just want to say hi, 
 						please feel free to email me.</p>
 						<div>
