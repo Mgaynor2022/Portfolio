@@ -47,7 +47,7 @@ export default function Home(){
 				<div className="">
 					<img 
 					// src={infoMovie}
-					src="/src/images/infoMovie.jpeg" 
+					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
 					className="p-10 h-full"/>					
 				</div>
 			</div>
@@ -56,7 +56,7 @@ export default function Home(){
 				<div className="">
 					<img 
 					// src={adoptApet}
-					src="/src/images/adoptApet.jpeg" 
+					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
 					className="p-10 h-full"/>					
 				</div>
 				<div className="items-center">

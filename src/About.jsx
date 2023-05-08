@@ -12,7 +12,7 @@ export default function About(){
 				<div className="">
 					<img id='picture'
 					// src={michaelImage}
-					src= "/src/images/IMG_1369.jpeg" 
+					src= "https://raw.githubusercontent.com/Mgaynor2022/Portfolio/main/src/images/IMG_1369.jpeg" 
 					className="rounded-full p-10 w-7/12"/>					
 				</div>
 
