@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles";
 import About from './About'
 import Navbar from './Navbar'
 import Header from './components/config/Header'
+import MinNavbar from './MinNavbar'
 
 
 const LandingPage = () => {
@@ -29,6 +30,7 @@ const LandingPage = () => {
                 options={particlesConfig}
                 />
                 <Navbar />
+                {/* <MinNavbar /> */}
                 <Header />
               
         </div>

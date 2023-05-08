@@ -27,26 +27,26 @@ export default function Navbar(){
     return(
 		
 		
-			<div  className='transparent absolute  z-50 text-center '>
+			<div id='bigNavbar'   className='transparent absolute  z-50 text-center '>
 				<nav id='' className=' transparent '>
 
 				<ul id={navbar ? 'navbar-active' : 'navbar'} className="w-full h-20 flex fixed items-center uppercase text-white  ">
 					<FaReact className='ml-5 hover:text-black text-gray-600' size='2.5em' />
-					<Link className='mx-4 hover:text-black text-gray-600 transition delay-150' to="#about" smooth >About</Link>
+					<Link className='mx-4 hover:text-black text-gray-600 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' to="#about" smooth >About</Link>
 					
 					<li>
-					<Link className='mx-4 hover:text-black text-gray-600 transition delay-150' to="#projects" smooth >Projects</Link>
+					<Link className='mx-4 hover:text-black text-gray-600 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' to="#projects" smooth >Projects</Link>
 					</li>
 
 					<li>
-					<a className='mx-4 hover:text-black text-gray-600 transition delay-150' 
+					<a className='mx-4 hover:text-black text-gray-600 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' 
 					href='src/resume/michaelGaynorResume.pdf'
 					target="_blank" rel="noopener noreferrer">Resume</a>
 					</li>
 
 					<li>
 					</li>
-					<Link className='mx-4 hover:text-black text-gray-600 transition delay-150' to="#contact" smooth >Contact</Link>
+					<Link className='mx-4 hover:text-black text-gray-600 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' to="#contact" smooth >Contact</Link>
 					
 				</ul>
 			</nav>

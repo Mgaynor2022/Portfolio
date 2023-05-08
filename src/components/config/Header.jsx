@@ -14,10 +14,10 @@ export default function Header(){
             <div className="flex justify-center items-center text-center px-12">
 
 
-              <header>
+              <header >
                 <h1 className="text-8xl leading-tight mb-2">Michael Gaynor</h1>
-                <p id='headerText' className='text-lg px-40 mt-5'>Finds creative coding solutions and has a passion 
-                for creating memorable and engaging web experiences with React.</p>
+                <h1 id='headerText' className='text-lg px-10 mt-5'>Finds creative coding solutions and has a passion 
+                for creating memorable and engaging web experiences with React.</h1>
                 {/* <h1 className="text-2xl md:text-4xl leading-tight "> Software Engineer | Frontend Developer</h1> */}
                 <div className='flex justify-center mt-12'>
 

@@ -11,7 +11,7 @@ export default function About(){
 				<div className="">
 					<img id='picture'
 					src= "src/images/IMG_1369.jpeg" 
-					className="rounded-full p-10 w-8/12"/>					
+					className="rounded-full p-10 w-7/12"/>					
 				</div>
 
 				<div id='aboutMe' className=" flex flex-col items-center">
@@ -27,8 +27,9 @@ export default function About(){
 						<MdCss className='mr-4' size='2.5em'/>
 						<SiMysql size='2.5em'/>
 					</div>
+					<a href='src/resume/michaelGaynorResume.pdf' target="_blank" rel="noopener noreferrer">
 						<button type="button" class="mt-7 text-black border-2 border-black  hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Resume</button>
-					
+					</a>
 
 				</div>
 			
