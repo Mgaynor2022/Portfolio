@@ -7,6 +7,7 @@ import {SiTailwindcss} from 'react-icons/si'
 
 
 
+
 export default function Home(){
 	return (
 		<div id='projects' className='bg-gray-100 pt-40 pb-20'>
@@ -42,7 +43,7 @@ export default function Home(){
 				</div>
 				<div className="">
 					<img 
-					src="src/images/infoMovie.jpeg" 
+					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
 					className="p-10 h-full"/>					
 				</div>
 			</div>
@@ -50,7 +51,7 @@ export default function Home(){
 			<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
 				<div className="">
 					<img 
-					src="src/images/adoptApet.jpeg" 
+					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
 					className="p-10 h-full"/>					
 				</div>
 				<div className="items-center">

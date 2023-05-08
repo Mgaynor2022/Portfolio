@@ -10,7 +10,7 @@ export default function About(){
         <div id='about'className="flex bg-gray-50 items-center px-12 lg:px-24 p-10 ">
 				<div className="">
 					<img id='picture'
-					src= "src/images/IMG_1369.jpeg" 
+					src= "https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/IMG_1369.jpeg?raw=true" 
 					className="rounded-full p-10 w-7/12"/>					
 				</div>
 
