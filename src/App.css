@@ -12,13 +12,20 @@ body {
   background-color: rgb(243 244 246);
   opacity: 0.75;
 }
-@media only screen and (max-width: 1000px) {
+#mobile-active{
+  background-color: rgb(243 244 246);
+  opacity: 0.75;
+}
+@media only screen and (max-width: 900px) {
   #bigNavbar{
-    display:hidden
+    display:none
+  }
+  #mobile-nav{
+    display:flex
   }
 
   #dropdown-menu.inactive{
-    display:none
+    display:flex
   }
  
   #headerText{
