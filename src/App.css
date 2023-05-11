@@ -61,6 +61,12 @@ body {
       display: flex;
       flex-direction: column-reverse;
     }
+    #infoMovie{
+      height: 20rem;
+    }
+    #adoptApet{
+      height: 20rem;
+    }
     #project2{
       display: flex;
       flex-direction: column;
