@@ -1,9 +1,9 @@
 import React from 'react'
-import Project from './Project'
-import ContactUs from './ContactUs'
-import Footer from './components/config/Footer'
-import About from './About'
-import LandingPage from './LandingPage'
+import Project from './components/Project'
+import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
+import About from './components/About'
+import LandingPage from './components/LandingPage'
 import './App.css'
 
 
