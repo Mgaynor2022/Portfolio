@@ -13,7 +13,7 @@ export default function Home(){
         <div id='project1' className="flex items-center px-12 lg:px-24 mb-24">
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">infoMovie App</h1>
-					<p className="font-normal text-lg text-center mb-6">
+					<p className="font-normal mr-2 text-lg text-center mb-6">
 					Developed an application to allow users to extract data from RESTful 
 					API regarding movies or Tv-shows that was entered
 					into the search function, and allows users to add 
@@ -42,7 +42,7 @@ export default function Home(){
 					<img 
 					id='infoMovie'
 					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
-					className="p-10 w-full"/>					
+					className="p-10 w-full shadow-xl"/>					
 
 				</div>
 				
@@ -54,11 +54,11 @@ export default function Home(){
 					<img 
 					id='adoptApet'
 					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
-					className="p-10 w-full"/>					
+					className="p-10 w-full shadow-xl "/>					
 				</div>
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">petAdoption App</h1>
-					<p className="font-normal text-lg text-center mb-6">
+					<p className="font-normal text-lg text-center mb-6 ml-2">
 					Launched an application that serves as a centralized location that 
 					displays pets information that are available for adoption. All
 					from a created database with multiple endpoints that houses the data.</p>
@@ -75,9 +75,10 @@ export default function Home(){
 							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">GitHub</button>
 						</a>
 						<a href='' 
-							target="_blank" 
-							rel="noopener noreferrer">
-							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Website</button>
+							// target="_blank" 
+							// rel="noopener noreferrer"
+							>
+							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Coming Soon</button>
 						</a>
 					</div>
 

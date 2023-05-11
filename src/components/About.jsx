@@ -10,15 +10,15 @@ export default function About(){
 
     return (
         <div id='about'className="flex bg-gray-50 items-center px-12 lg:px-24 p-10 ">
-				<div className="">
-					<img id='picture'
+				<div className="myPicture-container w-full">
+					<img id='myPicture'
 					src= "https://raw.githubusercontent.com/Mgaynor2022/Portfolio/main/src/images/IMG_1369.jpeg" 
-					className="rounded-full p-10 w-7/12"/>					
+					className="rounded-full p-10 "/>					
 				</div>
 
 				<div id='aboutMe' className=" flex flex-col items-center">
 					<h1 className="text-5xl text-center mb-6 tracking-wider">About Me</h1>
-					<p className=" font-normal text-lg text-center mb-6">My time in the military and fitness journey showed 
+					<p id='aboutMe-text' className=" font-normal text-lg text-center mb-6">My time in the military and fitness journey showed 
 						me how disciplined and self motivated I truly am. Web development brings me fulfillment
 						 in bringing my ideas to life with coding, this is what makes me put the long hours into learning 
 						  as much as possible in a ever-growing field. I am motivated to advance and expand my skill set through
