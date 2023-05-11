@@ -38,20 +38,20 @@ export default function Home(){
 					</div>
 
 				</div>
-				<div className="">
+				
 					<img 
 					// src={infoMovie}
 					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
-					className="p-10 h-full"/>					
-				</div>
+					className="p-10 h-1/2 "/>					
+				
 			</div>
 
 			<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
-				<div className="">
+				<div className="items-center">
 					<img 
 					// src={adoptApet}
 					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
-					className="p-10 h-full"/>					
+					className="p-10 h-1/2"/>					
 				</div>
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">petAdoption App</h1>
