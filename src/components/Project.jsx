@@ -14,10 +14,9 @@ export default function Home(){
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">infoMovie App</h1>
 					<p className="font-normal mr-2 text-lg text-center mb-6">
-					Developed an application to allow users to extract data from RESTful 
-					API regarding movies or Tv-shows that was entered
-					into the search function, and allows users to add 
-					their favorite movies or tv-shows to a database. </p>
+					The infoMovie app provides a centralized platform where users can easily search for information about movies
+					 and TV shows. This addresses the problem of scattered and fragmented information across various sources
+					  </p>
 
 					<div className='icons flex justify-center' >
 						<FaReact className='mr-4' size='2.5em' />
@@ -53,15 +52,16 @@ export default function Home(){
 				<div className="items-center">
 					<img 
 					id='dogBreed'
-					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
+					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/dogBreed.jpeg?raw=true" 
 					className="p-10 w-full rounded-md "/>					
 				</div>
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">dogBreed App</h1>
 					<p className="font-normal text-lg text-center mb-6 ml-2">
-					Launched an application that serves as a centralized location that 
-					displays pets information that are available for adoption. All
-					from a created database with multiple endpoints that houses the data.</p>
+					The DogBreed App enables users to search for and explore dog breeds worldwide,
+					 providing information on characteristics, temperament, exercise needs, grooming
+					  requirements, and health considerations. It includes a selection of the top 20 
+					  dog breeds for browsing.</p>
 
 					<div className='icons flex justify-center' >
 						<FaReact className='mr-4' size='2.5em' />

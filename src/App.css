@@ -64,10 +64,14 @@ body {
     #infoMovie{
       height: 25rem;
       margin-bottom:10px;
+      padding-left: 0;
+      padding-right: 0;
     }
     #dogBreed{
       height: 25rem;
       margin-bottom:10px;
+      padding-left: 0;
+      padding-right: 0;
     }
     #project2{
       display: flex;
