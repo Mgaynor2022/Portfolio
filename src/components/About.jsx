@@ -20,8 +20,8 @@ export default function About(){
 					<h1 className="text-5xl text-center mb-6 tracking-wider">About Me</h1>
 					<p id='aboutMe-text' className=" font-normal text-lg text-center mb-6">My time in the military and fitness journey showed 
 						me how disciplined and self motivated I truly am. Web development brings me fulfillment
-						 in bringing my ideas to life with coding, this is what makes me put the long hours into learning 
-						  as much as possible in a ever-growing field. I am motivated to advance and expand my skill set through
+						 in bringing my ideas to life with coding. This is what makes me put the long hours into learning 
+						  as much as possible, in the ever-growing field. I am eager to advance and expand my skill set through
 						   targeted mentorship and working on challenging projects.</p>
 					<div id='icons' className='flex justify-center px-40' >
 						<SiJavascript className='mr-4' size='2.5em' />

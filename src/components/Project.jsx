@@ -33,7 +33,7 @@ export default function Home(){
 						<a href='https://infomovie.onrender.com' 
 							target="_blank" 
 							rel="noopener noreferrer">
-							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Website</button>
+							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Live</button>
 						</a>
 					</div>
 
@@ -42,7 +42,7 @@ export default function Home(){
 					<img 
 					id='infoMovie'
 					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
-					className="p-10 w-full shadow-xl"/>					
+					className="p-10 w-full rounded-md"/>					
 
 				</div>
 				
@@ -52,12 +52,12 @@ export default function Home(){
 			<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
 				<div className="items-center">
 					<img 
-					id='adoptApet'
+					id='dogBreed'
 					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/adoptApet.jpeg?raw=true" 
-					className="p-10 w-full shadow-xl "/>					
+					className="p-10 w-full rounded-md "/>					
 				</div>
 				<div className="items-center">
-					<h1 className="text-3xl text-center mb-6 tracking-wider">petAdoption App</h1>
+					<h1 className="text-3xl text-center mb-6 tracking-wider">dogBreed App</h1>
 					<p className="font-normal text-lg text-center mb-6 ml-2">
 					Launched an application that serves as a centralized location that 
 					displays pets information that are available for adoption. All
@@ -74,17 +74,15 @@ export default function Home(){
 							rel="noopener noreferrer">
 							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">GitHub</button>
 						</a>
-						<a href='' 
-							// target="_blank" 
-							// rel="noopener noreferrer"
+						<a href='https://dogbreedapp.onrender.com' 
+							target="_blank" 
+							rel="noopener noreferrer"
 							>
-							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Coming Soon</button>
+							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Live </button>
 						</a>
 					</div>
-
 				</div>
-			</div>
-			
+			</div>		
 	</div>
     )
 }
