@@ -8,7 +8,7 @@ export default function Resume(){
                 <img src="https://raw.githubusercontent.com/Mgaynor2022/Mgaynor2022.github.io/main/images/resume.png" class="w-1/2"  />
             </div>
 
-                <a href='src/resume/michaelGaynorResume.pdf' download={"Michael Gaynor Resume"} target="_blank" rel="noopener noreferrer">
+                <a href='src/resume/VSchool Resume.pdf' download={"Michael Gaynor Resume"} target="_blank" rel="noopener noreferrer">
                     <button type="button" class="mt-5 text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">Download Resume</button>
                 </a>
 
