@@ -73,7 +73,7 @@ export default function Navbar(){
 				</li>
 				<li>
 					<a className=' uppercase mx-4 text-black transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8 ' 
-						href='src/resume/michaelGaynorResume.pdf'
+						href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit'
 						target="_blank" rel="noopener noreferrer">Resume
 					</a>
 					</li>
