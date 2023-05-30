@@ -25,7 +25,7 @@ export default function Header(){
                     <a className='ml-5' href='https://github.com/Mgaynor2022' rel="noopener noreferrer nofollow" target='_blank'> <FaGithub className='hover:text-gray-600 transition delay-200' size='3.5em'/> </a>
                     <Link className='ml-5' to='#contact'smooth> <AiOutlineMail className='hover:text-gray-600 transition delay-200' size='3.5em'/> </Link>
                     <a className='mx-4 ' 
-					              href='https://github.com/Mgaynor2022/Portfolio/blob/main/src/resume/VSchool%20Resume.pdf'
+					              href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit'
 					              target="_blank" rel="noopener noreferrer nofollow"> <FiDownload className='hover:text-gray-600 transition delay-200' size='3.5em'/>  </a>
                 </div>
               </header>

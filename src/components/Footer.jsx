@@ -14,7 +14,7 @@ export default function Footer() {
                 <a href='https://www.linkedin.com/in/mgaynor228/' rel="noopener noreferrer nofollow" target='_blank'> <TfiLinkedin className='hover:text-gray-600 transition delay-200' color='black' size='2.5em'/> </a>
                 <a className='ml-5' href='https://github.com/Mgaynor2022' rel="noopener noreferrer nofollow" target='_blank'> <FaGithub className='hover:text-gray-600 transition delay-200'  color='black' size='2.5em'/> </a>
                 <a className='mx-4' 
-                    href='https://github.com/Mgaynor2022/Portfolio/blob/main/src/resume/Michael_Gaynor_Resume_2023.pdf'
+                    href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit'
                     target="_blank" rel="noopener noreferrer nofollow">  <FiDownload className='hover:text-gray-600 transition delay-200' color='black' size='2.5em'/></a>
                     
             </div>
