@@ -73,7 +73,8 @@ export default function Navbar(){
 				</li>
 				<li>
 					<a className=' uppercase mx-4 text-black transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8 ' 
-						href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit?usp=sharing'
+					href='https://docs.google.com/document/d/1huQQ0CeLkIBLc7HfL_KeCxpDcLv16NPbJs9Kisd35PI/edit?usp=sharing'
+						// href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit?usp=sharing'
 						target="_blank" rel="noopener noreferrer">Resume
 					</a>
 					</li>
