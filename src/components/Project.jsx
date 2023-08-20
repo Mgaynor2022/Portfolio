@@ -44,7 +44,7 @@ export default function Home(){
 					// src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true"
 					 />									
 				</div>
-
+{/* 
 				<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
 				
 					<img id='dogBreed' className="p-10 w-3/4 rounded-md "
@@ -77,7 +77,7 @@ export default function Home(){
 						</a>
 					</div>
 				</div>	
-			</div>
+			</div> */}
 
 			<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
 				
