@@ -11,6 +11,10 @@ export default function Home(){
 			<h1 id='featured-projects' className="text-5xl text-center mb-20 tracking-wider">Featured Projects</h1>
 
         <div id='project3' className="flex items-center px-12 lg:px-24 mb-24">
+			<img id='infoMovie' className="p-10 w-3/4 rounded-md"
+			src='https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/sneakerBlog.png?raw=true'
+			// src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true"
+			 />									
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">sneakerBlog App</h1>
 					<p className="font-normal mr-2 text-lg text-center mb-6">
@@ -39,10 +43,6 @@ export default function Home(){
 					</div>
 
 				</div>
-					<img id='infoMovie' className="p-10 w-3/4 rounded-md"
-					src='https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/sneakerBlog.png'
-					// src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true"
-					 />									
 				</div>
 {/* 
 				<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
