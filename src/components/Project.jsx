@@ -10,11 +10,7 @@ export default function Home(){
 		<div id='projects' className='bg-gray-100 pt-40 pb-20'>
 			<h1 id='featured-projects' className="text-5xl text-center mb-20 tracking-wider">Featured Projects</h1>
 
-        <div id='project3' className="flex items-center px-12 lg:px-24 mb-24">
-			<img id='infoMovie' className="p-10 w-3/4 rounded-md"
-			src='https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/sneakerBlog.png?raw=true'
-			// src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true"
-			 />									
+        <div id='project1' className="flex items-center px-12 lg:px-24 mb-24">
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">sneakerBlog App</h1>
 					<p className="font-normal mr-2 text-lg text-center mb-6">
@@ -43,6 +39,10 @@ export default function Home(){
 					</div>
 
 				</div>
+				<img id='infoMovie' className="p-10 w-3/4 rounded-md"
+				src='https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/sneakerBlog.png?raw=true'
+				// src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true"
+				 />									
 				</div>
 {/* 
 				<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
@@ -75,12 +75,15 @@ export default function Home(){
 							>
 							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Live </button>
 						</a>
-					</div>
-				</div>	
-			</div> */}
+						</div>
+						</div>	
+					</div> */}
 
 			<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
 				
+					<img id='dogBreed' className="p-10 w-3/4 rounded-md "
+					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/dogBreed.jpeg?raw=true" 
+					/>					
 				
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">dogBreed App</h1>
@@ -109,17 +112,10 @@ export default function Home(){
 						</a>
 					</div>
 				</div>	
-					<img id='dogBreed' className="p-10 w-3/4 rounded-md "
-					src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/dogBreed.jpeg?raw=true" 
-					/>					
 			</div>
 			
 					
 			<div id='project1' className="flex items-center px-12 lg:px-24 mb-24">
-						<img 
-						id='infoMovie' className="p-10 w-3/4 rounded-md"
-						src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
-						/>									
 				<div className="items-center">
 					<h1 className="text-3xl text-center mb-6 tracking-wider">infoMovie App</h1>
 					<p className="font-normal mr-2 text-lg text-center mb-6">
@@ -144,8 +140,11 @@ export default function Home(){
 							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Live</button>
 						</a>
 					</div>
-
 				</div>
+						<img 
+						id='infoMovie' className="p-10 w-3/4 rounded-md"
+						src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true" 
+						/>									
 				</div>
 	</div>
     )
