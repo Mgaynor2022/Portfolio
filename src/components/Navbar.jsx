@@ -43,19 +43,19 @@ export default function Navbar(){
 					<RxHamburgerMenu className='mr-2 ' onClick={toggle} size='2em' cursor='pointer'/>
 
     <div className={mobileNavbar ? "flex w-screen z-50 " : "hidden"} id="navbar-hamburger">
-      <ul className="flex flex-col rounded-lg">
-        <li className='mt-5 hover:text-black text-gray-800 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8'>
+      <ul className="flex flex-col rounded-lg ">
+        <li className='mt-5 hover:text-black  transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8'>
           <Link onClick={toggle} to="#about" smooth aria-current="page">About</Link>
         </li>
-        <li className='mt-5 mb-5 hover:text-black text-gray-800 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8'>
+        <li className='mt-5 mb-5 hover:text-black  transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8'>
           <Link onClick={toggle} to="#projects" smooth >Projects</Link>
         </li>
         <li>
-		<a onClick={toggle} className=' hover:text-black text-gray-800 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' 
+		<a onClick={toggle} className=' hover:text-black  transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' 
 			href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit?usp=sharing'
 			target="_blank" rel="noopener noreferrer">Resume</a>
         </li>
-        <li className='mt-5 hover:text-black text-gray-800 transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8'>
+        <li className='mt-5 hover:text-black  transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8'>
           <Link onClick={toggle} to="#contact" smooth >Contact</Link>
         </li>
       </ul>
@@ -65,14 +65,15 @@ export default function Navbar(){
 </nav>
 
 	<nav id='bigNavbar' className='transparent '>
-		<ul id={navbar ? 'navbar-active' : 'navbar'} className="w-full h-20 flex fixed items-center text-white ">
-			<h1 className='text-black ml-5'> michaelPortfolio() </h1>
-			<Link className=' uppercase mx-4 text-black transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' to="#about" smooth >About</Link>
+		<ul id={navbar ? 'navbar-active' : 'navbar'} 
+		className= {navbar ? "w-full h-20 flex fixed items-center font-semibold " : "w-full h-20 flex fixed items-center font-semibold text-white"}>
+			<h1 className=' ml-5'> michaelPortfolio() </h1>
+			<Link className=' uppercase mx-4 hover:underline hover:decoration-4 hover:underline-offset-8' to="#about" smooth >About</Link>
 				<li>
-					<Link className=' uppercase mx-4 text-black transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' to="#projects" smooth >Projects</Link>
+					<Link className=' uppercase mx-4 hover:underline hover:decoration-4 hover:underline-offset-8' to="#projects" smooth >Projects</Link>
 				</li>
 				<li>
-					<a className=' uppercase mx-4 text-black transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8 ' 
+					<a className=' uppercase mx-4 hover:underline hover:decoration-4 hover:underline-offset-8 ' 
 					href='https://docs.google.com/document/d/1huQQ0CeLkIBLc7HfL_KeCxpDcLv16NPbJs9Kisd35PI/edit?usp=sharing'
 						// href='https://docs.google.com/document/d/15NvFdyR56a26Sb60HiY_pxhKZyrkvot3eps2LSqunA4/edit?usp=sharing'
 						target="_blank" rel="noopener noreferrer">Resume
@@ -80,7 +81,7 @@ export default function Navbar(){
 					</li>
 						<li>
 						</li>
-						<Link className=' uppercase mx-4 text-black transition delay-150 hover:underline hover:decoration-4 hover:underline-offset-8' to="#contact" smooth >Contact</Link>
+						<Link className=' uppercase mx-4 hover:underline hover:decoration-4 hover:underline-offset-8' to="#contact" smooth >Contact</Link>
 					</ul>
 				</nav>
 			</div>

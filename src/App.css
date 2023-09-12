@@ -9,8 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 } 
+
 #navbar-active{
   background-color: rgb(243 244 246);
+ 
   
 }
 #mobile-active{

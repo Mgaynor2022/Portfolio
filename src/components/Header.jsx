@@ -5,8 +5,6 @@ import {FaGithub} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FiDownload} from 'react-icons/fi'
 
-
-
 export default function Header(){
 
     return(
@@ -16,9 +14,9 @@ export default function Header(){
 
               <header >
                 <h1 className="text-8xl leading-tight mb-2">Michael Gaynor</h1>
-                <h1 id='headerText' className='text-lg px-10 mt-5'>Finds creative coding solutions and has a passion 
-                for creating memorable and engaging web experiences.</h1>
-                {/* <h1 className="text-2xl md:text-4xl leading-tight "> Software Engineer | Frontend Developer</h1> */}
+                <h1 className="text-2xl md:text-4xl leading-tight "> Software Engineer | Frontend Developer</h1>
+                  <h1 id='headerText' className='text-lg mt-5 leading-tight'>Finds creative coding solutions and has a passion 
+                  for creating memorable and engaging web experiences.</h1>
                 <div className='flex justify-center mt-12'>
 
                     <a href='https://www.linkedin.com/in/mgaynor228/' rel="noopener noreferrer nofollow" target='_blank'> <TfiLinkedin className='hover:text-gray-600 transition delay-200'size='3.5em'/> </a>
