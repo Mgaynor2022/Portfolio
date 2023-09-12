@@ -44,43 +44,7 @@ export default function Home(){
 				 />									
 				</div>
 
-{/* Still Working On the app
-				<div id='project2'className="flex items-center px-12 lg:px-24 mb-24">
-				
-					<img id='dogBreed' className="p-10 w-3/4 rounded-md "
-					src="src/images/fitnessApp.png" 
-					/>					
-				
-				<div className="items-center">
-					<h1 className="text-3xl text-center mb-6 tracking-wider">theFitness App</h1>
-					<p className="font-normal text-lg text-center mb-6 ml-2">
-					The fitness app enables users to create accounts to access a wide range of exercises with demonstrations. Users can
-					 filter exercises by muscle groups, like/dislike exercises, save favorites, and learn correct exercise techniques.
-					  This comprehensive approach addresses the need for guidance in fitness routines.  </p>
 
-					<div className='icons flex justify-center' >
-						<FaReact className='mr-4' size='2.5em' />
-						<SiTailwindcss className='mr-4' size='2.5em'/>
-						<FaNode size='2.5em'/>
-					</div>
-					<div className='buttons flex justify-center'>
-						<a href='https://github.com/Mgaynor2022/fitnessApp' 
-							target="_blank" 
-							rel="noopener noreferrer">
-							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">GitHub</button>
-						</a>
-						<a href='https://fitnessapp-wc7c.onrender.com' 
-							target="_blank" 
-							rel="noopener noreferrer"
-							>
-							<button type="button" class="mt-5 text-white bg-black hover:bg-gray-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Live </button>
-						</a>
-						</div>
-						</div>	
-					</div> */}
-
-			
-					
 			<div id='project2' className="flex items-center px-12 lg:px-24 mb-24">
 				<img id='infoMovie' className="p-10 w-3/4 rounded-md"src="https://github.com/Mgaynor2022/Portfolio/blob/main/src/images/infoMovie.jpeg?raw=true"/>
 				
