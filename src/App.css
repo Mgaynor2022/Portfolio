@@ -8,12 +8,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-} 
+}
 
 #navbar-active{
   background-color: rgb(243 244 246);
  
-  
 }
 #mobile-active{
   background-color: rgb(243 244 246);
