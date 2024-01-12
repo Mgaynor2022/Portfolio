@@ -9,15 +9,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-
 #navbar-active{
   background-color: rgb(243 244 246);
- 
+  
 }
 #mobile-active{
   background-color: rgb(243 244 246);
 }
 @media only screen and (max-width: 900px) {
+  #aws{
+    display: none;
+  }
   #bigNavbar{
     display:none
   }

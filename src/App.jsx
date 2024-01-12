@@ -4,6 +4,7 @@ import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import About from './components/About'
 import LandingPage from './components/LandingPage'
+// import Certifications from './components/Certifications'
 import './App.css'
 
 
@@ -15,6 +16,7 @@ export default function App(){
           <>
             <LandingPage />
             <About />
+            {/* <Certifications /> */}
             <Project />
             <ContactUs />
             <Footer />

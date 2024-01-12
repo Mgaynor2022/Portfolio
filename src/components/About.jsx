@@ -23,7 +23,7 @@ export default function About(){
           {/* <h1 className="text-2xl text-center mb-6 tracking-wider">Skills</h1> */}
           <div
             id="icons"
-            className="flex justify-center px-40 font-normal text-lg  "
+            className="flex justify-center lg:px-40 mb-10  font-normal text-lg  "
           >
             <p className="mr-4 text-black border-2 border-black  hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">
               HTML
@@ -57,18 +57,19 @@ export default function About(){
               Github
             </p>
           </div>
-          <p className="font-normal text-2xl mr-4 mt-5 mb-2">AWS</p>
-          <div className="flex justify-center px-40 font-normal text-lg">
+          <p id="aws" className="font-normal text-2xl mr-4 mt-5 mb-2">AWS</p>
+          <div id="aws" className=" flex justify-center px-12 lg:px-24 mb-24  font-normal text-lg">
             <p className="mr-2">S3</p>
             <p className="mr-2">|</p>
-            <p className="mr-2">Route 53</p>
+            <p className="mr-2">Route53</p>
             <p className="mr-2">|</p>
             <p className="mr-2">CloudFront</p>
-            <p className="mr-2">|</p>
-            <p className="mr-2">Lambda</p> <p className="mr-2">|</p>
-            <p className="mr-2">DynamoDB</p> <p className="mr-2">|</p>
-            <p className="mr-2">IAM</p>
+              <p className="mr-2">|</p>
+              <p className="mr-2">Lambda</p> <p className="mr-2">|</p>
+              <p className="mr-2">DynamoDB</p> <p className="mr-2">|</p>
+              <p className="mr-2">IAM</p>
           </div>
+
 
           <a
             href="https://docs.google.com/document/d/1huQQ0CeLkIBLc7HfL_KeCxpDcLv16NPbJs9Kisd35PI/edit"
