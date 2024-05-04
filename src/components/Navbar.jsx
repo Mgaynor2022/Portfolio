@@ -61,7 +61,8 @@ export default function Navbar(){
       </ul>
     </div>
 
-  </div>					
+  </div>	
+  			
 </nav>
 
 	<nav id='bigNavbar' className='transparent '>

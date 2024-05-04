@@ -6,7 +6,7 @@ export default function About(){
       <div id="about" className="flex bg-gray-50 items-center lg:px-24 p-10 ">
         <div id="aboutMe" className=" flex flex-col items-center">
           <h1 className="text-5xl text-center mb-6 tracking-wider">About Me</h1>
-          <div className="w-full">
+          <div className="w-1/2">
             <p
               id="aboutMe-text"
               className=" font-normal text-lg text-center mb-10  "
