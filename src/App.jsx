@@ -16,7 +16,6 @@ export default function App(){
           <>
             <LandingPage />
             <About />
-            {/* <Certifications /> */}
             <Project />
             <ContactUs />
             <Footer />

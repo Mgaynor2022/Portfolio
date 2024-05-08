@@ -85,6 +85,8 @@ export default function Navbar(){
 						<Link className=' uppercase mx-4 hover:underline hover:decoration-4 hover:underline-offset-8' to="#contact" smooth >Contact</Link>
 					</ul>
 				</nav>
+
+
 			</div>
 		
 		
