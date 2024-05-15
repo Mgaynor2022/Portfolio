@@ -1,20 +1,40 @@
 import React from "react";
-
+import AWS from '../images/AWS.png' 
+import CompTIA from '../images/CompTIA.png'
+import awsSA from '../images/awsSA.jpeg'
 
 export default function Certifications(){
 
     return (
-        <div>
-            <p className="font-normal text-lg mr-4 mt-5 mb-2">AWS</p>
+      <div>
         <div className="flex justify-center px-40 font-normal text-lg">
-            <p className="mr-2">S3</p><p className='mr-2'>|</p>
-            <p className="mr-2">Route 53</p><p className='mr-2'>|</p>
-            <p className="mr-2">CloudFront</p><p className='mr-2'>|</p>
-            <p className="mr-2">Lambda</p> <p className='mr-2'>|</p>
-            <p className="mr-2">DynamoDB</p> <p className='mr-2'>|</p>
-            <p className="mr-2">IAM</p> 
+          <a
+            href="https://www.credly.com/badges/bb9833a6-19e7-4fc0-af1a-7e14f77803cc/linked_in_profile"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              src={AWS}
+              width="250"
+              height="250"
+              className="transition-transform duration-300 transform hover:scale-110"
+            ></img>
+          </a>
+
+          <img
+            src={CompTIA}
+            width="250"
+            height="250"
+            className="transition-transform duration-300 transform hover:scale-110 mx-10"
+          ></img>
+          <img
+            src={awsSA}
+            width="250"
+            height="250"
+            className="transition-transform duration-300 transform hover:scale-110 "
+          ></img>
         </div>
-        </div>
-    )
+      </div>
+    );
 }
 

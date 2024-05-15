@@ -30,7 +30,7 @@ export default function Header() {
           <h1 className="text-8xl leading-tight mb-2">Michael Gaynor</h1>
           <h1 className="text-2xl md:text-4xl leading-tight ">
             {" "}
-            Software Engineer | Frontend Developer
+            Cloud Engineer | Software Developer
           </h1>
           <h1 id="headerText" className="text-lg mt-5 leading-tight">
             Finds creative coding solutions and has a passion for creating

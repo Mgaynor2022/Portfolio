@@ -43,45 +43,23 @@ export default function About() {
             JavaScript
           </p>
           <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
-            TypeScript
-          </p>
-          <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
-            React
-          </p>
-          <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
-            Tailwind{" "}
-          </p>
-          <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
             Python
           </p>
+
           <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
-            SQL
+            Linux
           </p>
           <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
-            Git
+            Active Directory
           </p>
           <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
             Github
           </p>
+          <p className="mr-4 border-black border-2 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 py-2.5 mb-2">
+            Windows 10
+          </p>
         </div>
-        <p id="aws" className="font-normal text-2xl mr-4 mt-5 mb-2">
-          AWS
-        </p>
-        <div
-          id="aws"
-          className=" flex justify-center px-12 lg:px-24 mb-24  font-normal text-lg"
-        >
-          <p className="mr-2">S3</p>
-          <p className="mr-2">|</p>
-          <p className="mr-2">Route53</p>
-          <p className="mr-2">|</p>
-          <p className="mr-2">CloudFront</p>
-          <p className="mr-2">|</p>
-          <p className="mr-2">Lambda</p> <p className="mr-2">|</p>
-          <p className="mr-2">DynamoDB</p> <p className="mr-2">|</p>
-          <p className="mr-2">IAM</p>
-        </div>
-
+    
         <a
           href="https://docs.google.com/document/d/1huQQ0CeLkIBLc7HfL_KeCxpDcLv16NPbJs9Kisd35PI/edit"
           target="_blank"
