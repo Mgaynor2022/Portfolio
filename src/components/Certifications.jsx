@@ -22,16 +22,16 @@ export default function Certifications(){
           </a>
 
           <img
-            src={CompTIA}
-            width="250"
-            height="250"
-            className="transition-transform duration-300 transform hover:scale-110 mx-10"
-          ></img>
-          <img
             src={awsSA}
             width="250"
             height="250"
             className="transition-transform duration-300 transform hover:scale-110 "
+          ></img>
+          <img
+            src={CompTIA}
+            width="250"
+            height="250"
+            className="transition-transform duration-300 transform hover:scale-110 mx-10"
           ></img>
         </div>
       </div>

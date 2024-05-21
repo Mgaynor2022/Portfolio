@@ -27,7 +27,6 @@ export default function About() {
           </p>
         </div>
 
-        {/* <h1 className="text-2xl text-center mb-6 tracking-wider">Skills</h1> */}
         <div
           id="icons"
           className="flex justify-center lg:px-40 mb-10  font-normal text-lg  "
