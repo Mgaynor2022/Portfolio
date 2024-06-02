@@ -34,3 +34,23 @@ jobs:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    #       {
+    # "Version": "2008-10-17",
+    # "Id": "PolicyForCloudFrontPrivateContent",
+    # "Statement": [
+    #     {
+    #         "Sid": "AllowCloudFrontServicePrincipal",
+    #         "Effect": "Allow",
+    #         "Principal": {
+    #             "Service": "cloudfront.amazonaws.com"
+    #         },
+    #         "Action": "s3:GetObject",
+    #         "Resource": "arn:aws:s3:::michael-gaynor-aws-resume/*",
+    #         "Condition": {
+    #             "StringEquals": {
+    #                 "AWS:SourceArn": "arn:aws:cloudfront::136224619317:distribution/E3SBN6RTH3HYVE"
+    #             }
+    #         }
+    #     }
+    # ]
