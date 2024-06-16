@@ -20,24 +20,26 @@ export default function Certifications(){
               className="transition-transform duration-300 transform hover:scale-110"
             ></img>
           </a>
-          <a
-            href="https://www.credly.com/badges/c5a091af-c9f1-43cc-bf66-f665ad802722"
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-          >
+          
             <img
               src={awsSA}
               width="250"
               height="250"
               className="transition-transform duration-300 transform hover:scale-110 "
             ></img>
+          <a
+            href="https://www.credly.com/badges/c5a091af-c9f1-43cc-bf66-f665ad802722"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              src={CompTIA}
+              width="250"
+              height="250"
+              className="transition-transform duration-300 transform hover:scale-110 mx-10"
+            ></img>
+
           </a>
-          <img
-            src={CompTIA}
-            width="250"
-            height="250"
-            className="transition-transform duration-300 transform hover:scale-110 mx-10"
-          ></img>
         </div>
       </div>
     );
